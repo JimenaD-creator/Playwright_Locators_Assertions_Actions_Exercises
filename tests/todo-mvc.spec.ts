@@ -56,13 +56,13 @@ test.describe("Todo MVC App", () => {
     await page.getByPlaceholder('What needs to be done?').fill('Deleted item');
     await page.getByPlaceholder('What needs to be done?').press('Enter');
 
-    await page.screenshot({ path: "add_item_to_be_deleted.png" });
+    await page.screenshot({ path: "./screenshots/add_item_to_be_deleted.png" });
 
     const todo = page.getByTestId('todo-item').filter({ hasText: 'Deleted item' });
 
     await todo.hover();
     await page.getByRole('button', { name: 'Delete' }).click();
-    await page.screenshot({ path: "deleted_item.png" });
+    await page.screenshot({ path: "./screenshots/deleted_item.png" });
 
     // Negative assertion
     await expect(todo).not.toBeVisible();
