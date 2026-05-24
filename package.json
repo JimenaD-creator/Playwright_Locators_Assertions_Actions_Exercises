@@ -1,0 +1,27 @@
+{
+  "name": "playwright_locators_exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimenaD-creator/Playwright_Locators_Assertions_Actions_Exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JimenaD-creator/Playwright_Locators_Assertions_Actions_Exercises/issues"
+  },
+  "homepage": "https://github.com/JimenaD-creator/Playwright_Locators_Assertions_Actions_Exercises#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "cloakbrowser": "^0.3.30",
+    "playwright-core": "^1.60.0"
+  }
+}
